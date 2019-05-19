@@ -31,7 +31,7 @@ The application uses multiprocessing to circumvent the GIL. This can cause probl
 ![](readme_assets/screenshot.png?raw=true)
 
 ### Licence
-GNU GPLv3
+MIT
 
 
    [amv]: <http://www.amv.as/en/>
