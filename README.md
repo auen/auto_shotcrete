@@ -25,7 +25,7 @@ In addition, it requires drivers for CAN bus:
 
 
 ### Running the application
-The application uses multiprocessing to circumvent the GIL. This can cause problems when running in a virtual environment. We reccomend running in the system enviromnent. Start the application by running: `python .\main.py`
+The application uses multiprocessing to circumvent the GIL. This can cause problems when running in a virtual environment. We recommend running in the system environment. Start the application by running: `python .\main.py`
 
 ### Screenshot
 ![](readme_assets/screenshot.png?raw=true)
