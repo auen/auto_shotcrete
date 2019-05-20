@@ -30,7 +30,7 @@ The application uses multiprocessing to circumvent the GIL. This can cause probl
 ### Screenshot
 ![](readme_assets/screenshot.png?raw=true)
 
-### Licence
+### License
 MIT
 
 
