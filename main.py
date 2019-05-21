@@ -244,7 +244,7 @@ class Main(QMainWindow, main_window.Ui_MainWindow):
             self.status = "Surface generated"
             self.status_indicator.setStyleSheet('color: #eff0f1')
 
-            savetxt('cart_ref.txt', np.array(self.cart_ref), delimiter='  ')
+            # savetxt('cart_ref.txt', np.array(self.cart_ref), delimiter='  ')
 
         except Empty:
             print("No Cartesian reference returned from thread!")
@@ -292,7 +292,7 @@ class Main(QMainWindow, main_window.Ui_MainWindow):
 
             # print("Shape of ikin", np.shape(np.array(self.q_ref)))
 
-            savetxt('q_ref.txt', np.array(self.q_ref), delimiter='  ')
+            # savetxt('q_ref.txt', np.array(self.q_ref), delimiter='  ')
 
             print("Joint space reference stored in variable")
             self.status = "Inverse kinematics calculated"
@@ -677,7 +677,7 @@ class CANInterface(QThread):
 
     def timer(self, dt):
         self.dt_timer.timeout.connect(self.msg_send)
-        self.dt_timer.start(dt*200)
+        self.dt_timer.start(dt*700)
 
     def send_data(self, data):
 
