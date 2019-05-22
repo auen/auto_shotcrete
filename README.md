@@ -10,6 +10,12 @@ This is the code we developed during our master's Thesis. (Document will be link
 
 Consequently, it requires that the microcontroller has closed-loop control of all the joints.
 
+### Structure
+The application is module-based to promote individual development of methods. Physical calculations are split into the following modules:
+
+  - Kinematics
+  - Surface transformation
+  - Pattern generator
 
 ### Installation
 The framework has been tested with Python 3.7 (32 and 64 bit) on Windows and requires the following modules:
