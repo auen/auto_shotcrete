@@ -1,6 +1,6 @@
 # Automatic shotcrete application
 
-This is the code we developed during our master's Thesis. (Document will be linked when published). It is a framework for automatic operation of the 5-DOF [AMV][amv] 4200H shotcrete applicator. It connects to the onboard Danfoss MC024 over CAN bus, reads the sensors, runs the forward kinematics and displays the nozzle pose in a 3D-plot. In addition to monitoring the machine pose it can:
+This is the code we developed during our [master's Thesis][document]. It is a framework for automatic operation of the 5-DOF [AMV][amv] 4200H shotcrete applicator. It connects to the onboard Danfoss MC024 over CAN bus, reads the sensors, runs the forward kinematics and displays the nozzle pose in a 3D-plot. In addition to monitoring the machine pose it can:
 
 - Create a parametric surface model from 5 knot points
 - Generate a spraying pattern in accordance to selected preferences
@@ -42,3 +42,4 @@ MIT
 
    [amv]: <http://www.amv.as/en/>
    [kvaser]: <https://www.kvaser.com/download/>
+   [document]: <http://hdl.handle.net/11250/2622743>
