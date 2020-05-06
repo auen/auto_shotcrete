@@ -40,6 +40,6 @@ The application uses multiprocessing to circumvent the GIL. This can cause probl
 MIT
 
 
-   [amv]: <http://www.amv.as/en/>
+   [amv]: <https://www.amv-as.no/4200-shotcrete-robot>
    [kvaser]: <https://www.kvaser.com/download/>
    [document]: <http://hdl.handle.net/11250/2622743>
